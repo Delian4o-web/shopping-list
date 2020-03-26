@@ -1,3 +1,7 @@
+# Hosting URL
+
+https://shopping-list-d4047.firebaseapp.com
+
 # NgrxShoppingList
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
