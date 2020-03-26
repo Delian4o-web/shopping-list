@@ -5,9 +5,10 @@ import { AppRoutingModule } from "./app-routing.module";
 import { AppComponent } from "./app.component";
 import { ServiceWorkerModule } from "@angular/service-worker";
 import { environment } from "../environments/environment";
+import { ShoppingListComponentComponent } from './components/shopping-list-component/shopping-list-component.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, ShoppingListComponentComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
