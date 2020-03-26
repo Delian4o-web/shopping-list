@@ -5,7 +5,10 @@ import { v4 as uuid } from "uuid";
 
 import { ShoppingItem } from "../app/store/models/shopping-item-model";
 import { AppState } from "../app/store/models/app-state.model";
-import { AddItemAction } from "../app/store/actions/shopping.actions";
+import {
+  AddItemAction,
+  DeleteItemAction
+} from "../app/store/actions/shopping.actions";
 @Component({
   selector: "app-root",
   templateUrl: "./app.component.html",
@@ -25,5 +28,9 @@ export class AppComponent {
     this.newShoppingItem.id = uuid(); //generate unique id
     this.store.dispatch(new AddItemAction(this.newShoppingItem));
     this.newShoppingItem = { id: "", name: "" };
+  }
+
+  deleteItem(id: string) {
+    this.store.dispatch(new DeleteItemAction(id));
   }
 }
