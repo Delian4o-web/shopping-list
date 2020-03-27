@@ -1,3 +1,7 @@
+# Source
+
+https://developer.school/introduction-to-ngrx-store/
+
 # Hosting URL
 
 https://shopping-list-d4047.firebaseapp.com
