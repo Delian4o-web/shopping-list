@@ -3,6 +3,7 @@ import {
   ShoppingAction
 } from "../actions/shopping.actions";
 import { ShoppingItem } from "../models/shopping-item-model";
+import { createReducer } from "@ngrx/store";
 
 const initialState: Array<ShoppingItem> = [
   {
