@@ -7,8 +7,8 @@ import { createReducer } from "@ngrx/store";
 
 const initialState: Array<ShoppingItem> = [
   {
-    id: "1775935f-36fd-467e-a667-09f95b917f6d",
-    name: "Diet Coke"
+    id: "01",
+    name: "Eggs"
   }
 ];
 
